@@ -1,0 +1,14 @@
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\bin\Debug\net6.0\csharp101.exe
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\bin\Debug\net6.0\csharp101.deps.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\bin\Debug\net6.0\csharp101.runtimeconfig.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\bin\Debug\net6.0\csharp101.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\bin\Debug\net6.0\csharp101.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\obj\Debug\net6.0\csharp101.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\obj\Debug\net6.0\csharp101.AssemblyInfoInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\obj\Debug\net6.0\csharp101.AssemblyInfo.cs
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\obj\Debug\net6.0\csharp101.csproj.CoreCompileInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\obj\Debug\net6.0\csharp101.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\obj\Debug\net6.0\refint\csharp101.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\obj\Debug\net6.0\csharp101.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\obj\Debug\net6.0\csharp101.genruntimeconfig.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\obj\Debug\net6.0\ref\csharp101.dll

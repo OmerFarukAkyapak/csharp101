@@ -6,7 +6,11 @@ namespace csharp101
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! My name is Faruk.");
+            Console.WriteLine("Hello, what is your name?");
+            string name = Console.ReadLine();
+            Console.WriteLine("Thanks " + name + "!");
+
+            Console.ReadLine();
         }
     }
 }
