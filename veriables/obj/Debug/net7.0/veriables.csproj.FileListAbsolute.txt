@@ -1,0 +1,14 @@
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\bin\Debug\net7.0\veriables.exe
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\bin\Debug\net7.0\veriables.deps.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\bin\Debug\net7.0\veriables.runtimeconfig.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\bin\Debug\net7.0\veriables.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\bin\Debug\net7.0\veriables.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\obj\Debug\net7.0\veriables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\obj\Debug\net7.0\veriables.AssemblyInfoInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\obj\Debug\net7.0\veriables.AssemblyInfo.cs
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\obj\Debug\net7.0\veriables.csproj.CoreCompileInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\obj\Debug\net7.0\veriables.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\obj\Debug\net7.0\refint\veriables.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\obj\Debug\net7.0\veriables.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\obj\Debug\net7.0\veriables.genruntimeconfig.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\veriables\obj\Debug\net7.0\ref\veriables.dll
