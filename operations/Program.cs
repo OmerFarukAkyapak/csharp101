@@ -60,7 +60,7 @@ class Program
         //Explicit Casting
         string str = "1234";
         int i = Convert.ToInt32(str);
-        Console.WriteLine("str is 1234,str converted to i is " + i);
+        Console.WriteLine("str is 1234 , str converted to i is " + i);
 
 
         Console.ReadLine();
