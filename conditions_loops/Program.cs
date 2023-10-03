@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Http.Headers;
 
 namespace conditions_loops;
 
@@ -55,8 +56,16 @@ class Program
                 Console.WriteLine("Unknown Season");
                 break;
         }
+        Console.WriteLine(" ");
 
-
+        // For Loop
+        int counter = 0;
+        Console.WriteLine("You woke up at 7 AM.");
+        for (int wakeUpTime = 7; wakeUpTime < hour; wakeUpTime++)
+        {
+            counter++;
+        }
+        Console.WriteLine("You've been awake for " + counter + " hours.");
 
 
 
