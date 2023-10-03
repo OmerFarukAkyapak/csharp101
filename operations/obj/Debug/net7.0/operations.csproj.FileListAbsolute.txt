@@ -1,0 +1,14 @@
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\bin\Debug\net7.0\operations.exe
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\bin\Debug\net7.0\operations.deps.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\bin\Debug\net7.0\operations.runtimeconfig.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\bin\Debug\net7.0\operations.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\bin\Debug\net7.0\operations.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\obj\Debug\net7.0\operations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\obj\Debug\net7.0\operations.AssemblyInfoInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\obj\Debug\net7.0\operations.AssemblyInfo.cs
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\obj\Debug\net7.0\operations.csproj.CoreCompileInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\obj\Debug\net7.0\operations.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\obj\Debug\net7.0\refint\operations.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\obj\Debug\net7.0\operations.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\obj\Debug\net7.0\operations.genruntimeconfig.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\operations\obj\Debug\net7.0\ref\operations.dll
