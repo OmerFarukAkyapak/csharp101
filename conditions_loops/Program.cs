@@ -83,11 +83,27 @@ class Program
         Console.WriteLine(" ");
 
 
-        // While Loop
+        // While with Fibonacci
+        int first = 0;
+        int second = 1;
+        int total;
+        int fibCounter = 0;
+        Console.WriteLine("Enter a number for Fibonacci:");
+        int inputNum = int.Parse(Console.ReadLine());
+        Console.WriteLine("Fibonacci Sequence:");
+        while (fibCounter < inputNum)
+        {
+            total = first + second;
+            first = second;
+            second = total;
+            Console.WriteLine(total);
+            fibCounter++;
+        }
+        Console.WriteLine(" ");
 
 
 
-
+        Console.WriteLine("Press Enter to Exit");
         Console.ReadLine();
     }
 }
