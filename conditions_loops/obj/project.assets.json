@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\faruk\\OneDrive\\Masaüstü\\projects\\dotnet core\\csharp101\\conditions-loops\\conditions-loops.csproj",
+      "projectUniqueName": "C:\\Users\\faruk\\OneDrive\\Masaüstü\\projects\\dotnet core\\csharp101\\conditions_loops\\conditions-loops.csproj",
       "projectName": "conditions-loops",
-      "projectPath": "C:\\Users\\faruk\\OneDrive\\Masaüstü\\projects\\dotnet core\\csharp101\\conditions-loops\\conditions-loops.csproj",
+      "projectPath": "C:\\Users\\faruk\\OneDrive\\Masaüstü\\projects\\dotnet core\\csharp101\\conditions_loops\\conditions-loops.csproj",
       "packagesPath": "C:\\Users\\faruk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\faruk\\OneDrive\\Masaüstü\\projects\\dotnet core\\csharp101\\conditions-loops\\obj\\",
+      "outputPath": "C:\\Users\\faruk\\OneDrive\\Masaüstü\\projects\\dotnet core\\csharp101\\conditions_loops\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

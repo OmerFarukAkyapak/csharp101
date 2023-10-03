@@ -1,0 +1,14 @@
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\bin\Debug\net7.0\conditions-loops.exe
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\bin\Debug\net7.0\conditions-loops.deps.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\bin\Debug\net7.0\conditions-loops.runtimeconfig.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\bin\Debug\net7.0\conditions-loops.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\bin\Debug\net7.0\conditions-loops.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\obj\Debug\net7.0\conditions-loops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\obj\Debug\net7.0\conditions-loops.AssemblyInfoInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\obj\Debug\net7.0\conditions-loops.AssemblyInfo.cs
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\obj\Debug\net7.0\conditions-loops.csproj.CoreCompileInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\obj\Debug\net7.0\conditions-loops.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\obj\Debug\net7.0\refint\conditions-loops.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\obj\Debug\net7.0\conditions-loops.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\obj\Debug\net7.0\conditions-loops.genruntimeconfig.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\conditions_loops\obj\Debug\net7.0\ref\conditions-loops.dll
