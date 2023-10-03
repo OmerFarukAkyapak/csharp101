@@ -1,0 +1,14 @@
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\bin\Debug\net7.0\console_programming.exe
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\bin\Debug\net7.0\console_programming.deps.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\bin\Debug\net7.0\console_programming.runtimeconfig.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\bin\Debug\net7.0\console_programming.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\bin\Debug\net7.0\console_programming.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\obj\Debug\net7.0\console_programming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\obj\Debug\net7.0\console_programming.AssemblyInfoInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\obj\Debug\net7.0\console_programming.AssemblyInfo.cs
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\obj\Debug\net7.0\console_programming.csproj.CoreCompileInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\obj\Debug\net7.0\console_programming.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\obj\Debug\net7.0\refint\console_programming.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\obj\Debug\net7.0\console_programming.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\obj\Debug\net7.0\console_programming.genruntimeconfig.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet core\csharp101\console_programming\obj\Debug\net7.0\ref\console_programming.dll
