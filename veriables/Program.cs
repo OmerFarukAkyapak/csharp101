@@ -25,6 +25,7 @@ class Program
         long l = 9223372036854775807; // long type veriable 8 byte
 
         DateTime date = DateTime.Now; // date type veriable
+        string dateTime = DateTime.Now.ToString("dd/MM/yyyy"); // date type veriable
 
         Console.WriteLine("integer: " + number);
         Console.WriteLine("string with name: " + name);
@@ -35,6 +36,7 @@ class Program
         Console.WriteLine("char: " + letter);
 
         Console.WriteLine("date: " + date);
+        Console.WriteLine("formatted date: " + dateTime);
 
         Console.ReadLine();
     }
