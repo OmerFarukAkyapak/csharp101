@@ -101,6 +101,21 @@ class Program
         }
         Console.WriteLine(" ");
 
+        // Do-While
+        string password = "password";
+        string input;
+        do
+        {
+            Console.WriteLine("Enter your password:");
+            input = Console.ReadLine();
+            if (input != password)
+            {
+                Console.WriteLine("Incorrect Password");
+            }
+        } while (input != password);
+        Console.WriteLine("Correct Password");
+        Console.WriteLine(" ");
+
 
 
         Console.WriteLine("Press Enter to Exit");
