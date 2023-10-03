@@ -51,6 +51,18 @@ class Program
         bool result2 = c < d && d < e;
         Console.WriteLine("c < d && d < e is " + result2);
 
+        //Implicit Casting
+        byte f = 10;
+        sbyte g = 20;
+        int h = f + g;
+        Console.WriteLine("f + g is " + h);
+
+        //Explicit Casting
+        string str = "1234";
+        int i = Convert.ToInt32(str);
+        Console.WriteLine("str is 1234,str converted to i is " + i);
+
+
         Console.ReadLine();
     }
 }
