@@ -26,6 +26,8 @@ class Program
         {
             Console.WriteLine("Good Evening!");
         }
+        Console.WriteLine(" ");
+
 
         // Switch
         int month = time.Month;
@@ -58,15 +60,30 @@ class Program
         }
         Console.WriteLine(" ");
 
+
         // For Loop
         int counter = 0;
         Console.WriteLine("You woke up at 7 AM.");
-        for (int wakeUpTime = 7; wakeUpTime < hour; wakeUpTime++)
+        for (int wakeUpTime = 7; wakeUpTime < 23; wakeUpTime++)
         {
-            counter++;
+            if (hour < wakeUpTime && hour > 23)
+            {
+                break;
+            }
+            else if (wakeUpTime != hour)
+            {
+                counter++;
+            }
+            else
+            {
+                break;
+            }
         }
         Console.WriteLine("You've been awake for " + counter + " hours.");
+        Console.WriteLine(" ");
 
+
+        // While Loop
 
 
 
