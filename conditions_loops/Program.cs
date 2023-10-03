@@ -116,6 +116,14 @@ class Program
         Console.WriteLine("Correct Password");
         Console.WriteLine(" ");
 
+        // ForEach
+        char[] passwordArray = password.ToCharArray();
+        foreach (char letter in passwordArray)
+        {
+            Console.WriteLine(letter);
+        }
+        Console.WriteLine("This is your password in an array.");
+        Console.WriteLine(" ");
 
 
         Console.WriteLine("Press Enter to Exit");
