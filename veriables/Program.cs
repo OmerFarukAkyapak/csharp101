@@ -17,6 +17,10 @@ class Program
 
         char letter = 'A'; // char type veriable
 
+        byte b = 255; // byte type veriable 1 byte
+        short s = 32767; // short type veriable 2 byte
+        int i = 2147483647; // int type veriable 4 byte
+        long l = 9223372036854775807; // long type veriable 8 byte
 
         Console.WriteLine("integer: " + number);
         Console.WriteLine("string with name: " + name);
