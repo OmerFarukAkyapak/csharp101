@@ -20,18 +20,22 @@ class Program
 
 
         //Print List
+        Console.WriteLine("Name List: ");
         PrintList(namesList);
+        Console.WriteLine("");
+        Console.WriteLine("Nubmer List: ");
         PrintList(numbersList);
+        Console.WriteLine("");
 
         //Count
         Console.WriteLine("Name List Count: " + namesList.Count);
-        Console.WriteLine("Number List Count: " + numbersList.Count);
+        Console.WriteLine("Number List Count: " + numbersList.Count + "\n");
 
         //Access
         Console.WriteLine("First of Name List: " + namesList[0]);
         Console.WriteLine("First of Number List: " + numbersList[0]);
 
-
+        Console.WriteLine("\nPress Enter to Exit...");
         Console.ReadLine();
     }
 
@@ -39,11 +43,11 @@ class Program
     {
         foreach (var item in list)
         {
-            Console.WriteLine(item + " \n");
+            Console.WriteLine(item);
         }
     }
     static void PrintList(List<int> list)
     {
-        list.ForEach(i => Console.WriteLine(i + " \n"));
+        list.ForEach(i => Console.WriteLine(i));
     }
 }
