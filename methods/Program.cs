@@ -12,6 +12,7 @@ class Program
         Console.WriteLine("1- Array Method");
         Console.WriteLine("2- Exponential Function");
         Console.WriteLine("3- String Method");
+        Console.WriteLine("Enter the number of the method: \n");
         int selection = Convert.ToInt32(Console.ReadLine());
 
         switch (selection)
@@ -43,15 +44,10 @@ class Program
                 Console.WriteLine(methods3.StringMethods(text));
                 break;
             default:
-                Console.WriteLine("Invalid Selection");
+                Console.WriteLine("Press Enter to Exit...");
+                Console.ReadLine();
                 break;
         }
-
-
-
-
-        Console.WriteLine("Press Enter to Exit...");
-        Console.ReadLine();
     }
 
     private static void arrayProcess(int[] numbers)
