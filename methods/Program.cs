@@ -11,6 +11,7 @@ class Program
         Console.WriteLine("Methods");
         Console.WriteLine("1- Array Method");
         Console.WriteLine("2- Exponential Function");
+        Console.WriteLine("3- String Method");
         int selection = Convert.ToInt32(Console.ReadLine());
 
         switch (selection)
@@ -33,7 +34,14 @@ class Program
                 methods2.Exponential(number, exponent);
                 Console.WriteLine($"The result is: {methods2.Exponential(number, exponent)}");
                 break;
-
+            case 3:
+                //string methods
+                Console.WriteLine("String Methods");
+                Methods methods3 = new Methods();
+                Console.WriteLine("Enter the text: ");
+                string text = Console.ReadLine();
+                Console.WriteLine(methods3.StringMethods(text));
+                break;
             default:
                 Console.WriteLine("Invalid Selection");
                 break;
@@ -128,6 +136,11 @@ class Methods
         {
             return number * Exponential(number, exponent - 1);
         }
+    }
+
+    public string StringMethods(string text)
+    {
+        return $"Upper Case: {text.ToUpper()} \nLower Case: {text.ToLower()}";
     }
 }
 
