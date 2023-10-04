@@ -75,7 +75,7 @@ class Program
         //clear
         Console.WriteLine("After Clear");
 
-        Array.Clear(numbers);
+        numbers.ClearArray();
         foreach (int i in numbers)
         {
             Console.WriteLine(i);
@@ -128,5 +128,14 @@ class Methods
         {
             return number * Exponential(number, exponent - 1);
         }
+    }
+}
+
+public static class Extension
+{
+    public static int[] ClearArray(this int[] array)
+    {
+        Array.Clear(array);
+        return array;
     }
 }
