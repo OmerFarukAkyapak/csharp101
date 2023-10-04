@@ -8,10 +8,39 @@ class Program
     {
         //methods
         //methods are a way to group code together
-        //array methods
-        Methods methods = new Methods();
-        methods.CreateArray(out int[] numbers);
-        arrayProcess(numbers);
+        Console.WriteLine("Methods");
+        Console.WriteLine("1- Array Method");
+        Console.WriteLine("2- Exponential Function");
+        int selection = Convert.ToInt32(Console.ReadLine());
+
+        switch (selection)
+        {
+            case 1:
+                //array methods
+                Console.WriteLine("Array Methods");
+                Methods methods = new Methods();
+                methods.CreateArray(out int[] numbers);
+                arrayProcess(numbers);
+                break;
+            case 2:
+                //exponential function
+                Console.WriteLine("Exponential Function");
+                Methods methods2 = new Methods();
+                Console.WriteLine("Enter the number: ");
+                int number = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter the exponent: ");
+                int exponent = Convert.ToInt32(Console.ReadLine());
+                methods2.Exponential(number, exponent);
+                Console.WriteLine($"The result is: {methods2.Exponential(number, exponent)}");
+                break;
+
+            default:
+                Console.WriteLine("Invalid Selection");
+                break;
+        }
+
+
+
 
         Console.WriteLine("Press Enter to Exit...");
         Console.ReadLine();
@@ -61,7 +90,6 @@ class Methods
 {
     public int[] CreateArray(out int[] array)
     {
-        Console.WriteLine("Array Methods");
         Console.WriteLine("Enter the size of the array: ");
 
         int size = Convert.ToInt32(Console.ReadLine());
@@ -84,5 +112,21 @@ class Methods
         }
 
         return array;
+    }
+
+    public int Exponential(int number, int exponent)
+    {
+        if (exponent == 0)
+        {
+            return 1;
+        }
+        else if (exponent == 1)
+        {
+            return number;
+        }
+        else
+        {
+            return number * Exponential(number, exponent - 1);
+        }
     }
 }
