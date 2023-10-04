@@ -9,13 +9,17 @@ class Program
         //methods
         //methods are a way to group code together
 
-        //array
-        int[] numbers = { 23, 41, 3, 32, 51, 16, 7, 11 };
-        Console.WriteLine("Numbers:");
-        foreach (int i in numbers)
-        {
-            Console.WriteLine(i);
-        }
+        //array methods
+        Methods methods = new Methods();
+        int[] numbers = methods.CreateArray();
+        arrayProcess(numbers);
+
+        Console.ReadLine();
+
+    }
+
+    private static void arrayProcess(int[] numbers)
+    {
         Console.WriteLine("");
         //sort
         Console.WriteLine("After Sort");
@@ -33,12 +37,36 @@ class Program
             Console.WriteLine(i);
         }
         Console.WriteLine("");
+        //clear
+        Console.WriteLine("After Clear");
+        Array.Clear(numbers);
+        foreach (int i in numbers)
+        {
+            Console.WriteLine(i);
+        }
+        Console.WriteLine("");
+    }
+}
 
 
-
-
-
-        Console.ReadLine();
-
+class Methods
+{
+    public int[] CreateArray()
+    {
+        Console.WriteLine("Enter the size of the array: ");
+        int size = Convert.ToInt32(Console.ReadLine());
+        int[] numbers = new int[size];
+        for (int i = 0; i < size; i++)
+        {
+            Console.WriteLine($"Enter the {i + 1}. number: ");
+            numbers[i] = Convert.ToInt32(Console.ReadLine());
+        }
+        Console.WriteLine("");
+        Console.WriteLine("The array is: ");
+        foreach (int i in numbers)
+        {
+            Console.WriteLine(i);
+        }
+        return numbers;
     }
 }
