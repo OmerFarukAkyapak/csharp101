@@ -1,0 +1,14 @@
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\bin\Debug\net7.0\oop_examples.exe
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\bin\Debug\net7.0\oop_examples.deps.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\bin\Debug\net7.0\oop_examples.runtimeconfig.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\bin\Debug\net7.0\oop_examples.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\bin\Debug\net7.0\oop_examples.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\obj\Debug\net7.0\oop_examples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\obj\Debug\net7.0\oop_examples.AssemblyInfoInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\obj\Debug\net7.0\oop_examples.AssemblyInfo.cs
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\obj\Debug\net7.0\oop_examples.csproj.CoreCompileInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\obj\Debug\net7.0\oop_examples.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\obj\Debug\net7.0\refint\oop_examples.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\obj\Debug\net7.0\oop_examples.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\obj\Debug\net7.0\oop_examples.genruntimeconfig.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\oop_examples\obj\Debug\net7.0\ref\oop_examples.dll
