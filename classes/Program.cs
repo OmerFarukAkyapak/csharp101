@@ -29,10 +29,17 @@ class Program
 
         employee2.EmployeeCountDetails();
 
-        Console.WriteLine(Addition.Add(1, 2));
+        Console.WriteLine("Add 1 + 2 :" + Operations.Add(1, 2));
+        Console.WriteLine("Subtract 3 - 2 :" + Operations.Subtract(3, 2));
+        Console.WriteLine("Multiply 4 * 2 :" + Operations.Multiply(4, 2));
+        Console.WriteLine("Divide 10 / 2 :" + Operations.Divide(10, 2) + "\n");
+
+        Rectangle rectangle = new Rectangle(10, 20);
+        Console.WriteLine("Area of Rectangle : " + rectangle.GetArea() + "\n");
+
+        Console.WriteLine("Monday is the " + (int)(Days.Monday) + "st day.\n");
 
         Console.ReadKey();
-
     }
 }
 
@@ -82,15 +89,61 @@ class Employee
     }
     public void EmployeeCountDetails()
     {
-        Console.WriteLine("Employee Count : {0}", _employeeCount);
+        Console.WriteLine("Employee Count : {0}", _employeeCount + "\n");
     }
 }
 
+public class Rectangle
+{
+    private int length { get; set; }
+    private int width { get; set; }
+    public Rectangle()
+    {
+
+    }
+
+    public Rectangle(int length, int width)
+    {
+        this.length = length;
+        this.width = width;
+    }
+
+    public int GetArea()
+    {
+        return Operations.Multiply(length, width);
+    }
+
+}
+
 // Static class
-static class Addition
+static class Operations
 {
     public static int Add(int a, int b)
     {
         return a + b;
     }
+    public static int Subtract(int a, int b)
+    {
+        return a - b;
+    }
+    public static int Multiply(int a, int b)
+    {
+        return a * b;
+    }
+    public static int Divide(int a, int b)
+    {
+        return a / b;
+    }
+}
+
+// Enum
+enum Days
+{
+    Monday = 1,
+    Tuesday = 2,
+    Wednesday = 3,
+    Thursday = 4,
+    Friday = 5,
+    Saturday = 6,
+    Sunday = 7
 }
