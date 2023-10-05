@@ -61,11 +61,17 @@ class Program
 
         //Count
         Console.WriteLine("Name List Count: " + namesList.Count);
-        Console.WriteLine("Number List Count: " + numbersList.Count + "\n");
+        Console.WriteLine("Number List Count: " + numbersList.Count);
+        Console.WriteLine("User List Count: " + usersList.Count);
+        Console.WriteLine("ArrayList Count: " + arrayList.Count);
+        Console.WriteLine("Dictionary Count: " + dictionary.Count + "\n");
 
         //Access
         Console.WriteLine("First of Name List: " + namesList[0]);
         Console.WriteLine("First of Number List: " + numbersList[0]);
+        Console.WriteLine("First of User List: " + usersList[0].Name);
+        Console.WriteLine("First of ArrayList: " + arrayList[0]);
+        Console.WriteLine("First of Dictionary: " + dictionary[1] + "\n");
 
         Console.WriteLine("\nPress Enter to Exit...");
         Console.ReadLine();
