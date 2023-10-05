@@ -22,10 +22,7 @@ class Program
         employee1.Department = "IT";
         employee1.EmployeeDetails();
 
-        Employee employee2 = new Employee();
-        employee2.Id = 2;
-        employee2.Name = "Enes";
-        employee2.Department = "Manager";
+        Employee employee2 = new Employee(2, "Enes", "Manager");
         employee2.EmployeeDetails();
 
         Console.ReadKey();
@@ -35,9 +32,24 @@ class Program
 
 class Employee
 {
+    //Constructor
+    public Employee()
+    {
+        Console.WriteLine("Empty Constructor Called");
+    }
+    public Employee(int id, string name, string department)
+    {
+        Console.WriteLine("Constructor Called");
+        Id = id;
+        Name = name;
+        Department = department;
+    }
+
     public int Id { get; set; }
     public string Name { get; set; }
     public string Department { get; set; }
+
+
     public void EmployeeDetails()
     {
         Console.WriteLine("Employee Details");
