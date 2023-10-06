@@ -1,5 +1,7 @@
 using System;
 
+namespace Entities;
+
 //Animals are Creatures
 public class Animals : Creatures
 {

@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Dynamic;
-using static Animals;
-using static Plants;
+using static Entities.Animals;
+using static Entities.Plants;
 
 
 namespace oop_examples;

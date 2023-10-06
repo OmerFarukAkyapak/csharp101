@@ -1,5 +1,6 @@
 using System;
 
+namespace Entities;
 //Plans are Creatures
 public class Plants : Creatures
 {

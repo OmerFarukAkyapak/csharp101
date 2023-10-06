@@ -1,5 +1,6 @@
 using System;
 
+namespace Entities;
 //Creatures is the base class
 public class Creatures
 {
