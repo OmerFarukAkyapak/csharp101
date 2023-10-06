@@ -12,4 +12,8 @@ public class Creatures
     {
         Console.WriteLine("Creatures are eating");
     }
+    public virtual void Live()
+    {
+        Console.WriteLine("Creatures are living in world!");
+    }
 }

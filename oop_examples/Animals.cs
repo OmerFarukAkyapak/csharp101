@@ -3,6 +3,11 @@ using System;
 //Animals are Creatures
 public class Animals : Creatures
 {
+    public override void Live()
+    {
+        base.Live();
+        Console.WriteLine("Animals are living in water, land, and air");
+    }
     //Locomotion is a protected method
     protected void Locomotion()
     {
@@ -24,6 +29,11 @@ public class Animals : Creatures
         {
             Console.WriteLine("Reptiles are cold blooded");
         }
+        public override void Live()
+        {
+            base.Live();
+            Console.WriteLine("Reptiles are living in land");
+        }
     }
     public class Birds : Animals
     {
@@ -38,6 +48,11 @@ public class Animals : Creatures
         public void Feathers()
         {
             Console.WriteLine("Birds have feathers");
+        }
+        public override void Live()
+        {
+            base.Live();
+            Console.WriteLine("Birds are living in air");
         }
     }
 }

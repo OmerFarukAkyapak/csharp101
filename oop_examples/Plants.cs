@@ -3,13 +3,20 @@ using System;
 //Plans are Creatures
 public class Plants : Creatures
 {
+    public override void Live()
+    {
+        base.Live();
+        Console.WriteLine("Plants are living in water and land");
+    }
     //Photosynthesis is a protected method
     protected void Photosynthesis()
     {
         Console.WriteLine("Plants are photosynthesizing");
     }
 
-    public class SeedPlants : Plants
+    //Seed plants and Seedless plants are Plants
+    //Sealed class
+    public sealed class SeedPlants : Plants
     {
         //Seed plants are Plants
         public SeedPlants()
@@ -23,8 +30,13 @@ public class Plants : Creatures
         {
             Console.WriteLine("Seed plants are seeding");
         }
+        public override void Live()
+        {
+            base.Live();
+            Console.WriteLine("Seed plants are living in water and land");
+        }
     }
-    public class SeedlessPlants : Plants
+    public sealed class SeedlessPlants : Plants
     {
         //Seedless plants are Plants
         public SeedlessPlants()
@@ -37,6 +49,11 @@ public class Plants : Creatures
         public void Spore()
         {
             Console.WriteLine("Seedless plants are sporing");
+        }
+        public override void Live()
+        {
+            base.Live();
+            Console.WriteLine("Seedless plants are living in water and land");
         }
     }
 }
