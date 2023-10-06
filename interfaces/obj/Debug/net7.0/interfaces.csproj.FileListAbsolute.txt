@@ -1,0 +1,14 @@
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\bin\Debug\net7.0\interfaces.exe
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\bin\Debug\net7.0\interfaces.deps.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\bin\Debug\net7.0\interfaces.runtimeconfig.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\bin\Debug\net7.0\interfaces.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\bin\Debug\net7.0\interfaces.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\obj\Debug\net7.0\interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\obj\Debug\net7.0\interfaces.AssemblyInfoInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\obj\Debug\net7.0\interfaces.AssemblyInfo.cs
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\obj\Debug\net7.0\interfaces.csproj.CoreCompileInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\obj\Debug\net7.0\interfaces.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\obj\Debug\net7.0\refint\interfaces.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\obj\Debug\net7.0\interfaces.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\obj\Debug\net7.0\interfaces.genruntimeconfig.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\interfaces\obj\Debug\net7.0\ref\interfaces.dll
