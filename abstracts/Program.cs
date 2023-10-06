@@ -1,4 +1,6 @@
-﻿namespace abstracts;
+﻿using System;
+
+namespace abstracts;
 
 class Program
 {
