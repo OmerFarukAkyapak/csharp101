@@ -1,0 +1,14 @@
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\bin\Debug\net7.0\abstracts.exe
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\bin\Debug\net7.0\abstracts.deps.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\bin\Debug\net7.0\abstracts.runtimeconfig.json
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\bin\Debug\net7.0\abstracts.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\bin\Debug\net7.0\abstracts.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\obj\Debug\net7.0\abstracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\obj\Debug\net7.0\abstracts.AssemblyInfoInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\obj\Debug\net7.0\abstracts.AssemblyInfo.cs
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\obj\Debug\net7.0\abstracts.csproj.CoreCompileInputs.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\obj\Debug\net7.0\abstracts.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\obj\Debug\net7.0\refint\abstracts.dll
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\obj\Debug\net7.0\abstracts.pdb
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\obj\Debug\net7.0\abstracts.genruntimeconfig.cache
+C:\Users\faruk\OneDrive\Masaüstü\projects\dotnet\csharp101\abstracts\obj\Debug\net7.0\ref\abstracts.dll
