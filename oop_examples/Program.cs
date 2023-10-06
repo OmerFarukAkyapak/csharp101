@@ -19,7 +19,7 @@ class Program
         // seedPlant.Photosynthesis();
         seedPlant.Seed();
 
-        Console.WriteLine("********");
+        Console.WriteLine("\n" + "********" + "\n");
 
         Birds bird = new Birds();
         bird.Live();
