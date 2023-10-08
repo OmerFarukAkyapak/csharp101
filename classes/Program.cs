@@ -49,7 +49,7 @@ class Employee
     //Constructor : Special method that is called when an object of a class is created
     public Employee()
     {
-        Console.WriteLine("Empty Constructor Called");
+        Console.WriteLine("Main Constructor Called");
         _employeeCount++;
     }
     static Employee()
@@ -57,9 +57,10 @@ class Employee
         Console.WriteLine("Static Constructor Called");
         _employeeCount = 0;
     }
+    // Overloading Constructor
     public Employee(int id, string name, string department)
     {
-        Console.WriteLine("Constructor Called");
+        Console.WriteLine("Overloading Constructor Called");
         Id = id;
         Name = name;
         Department = department;
