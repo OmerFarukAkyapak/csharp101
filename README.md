@@ -1,5 +1,3 @@
-
-
 # CSHARP_101
 *using c# with .net 7.0 - Interface, Collections, Classes, Variables, OOP Examples etc.*
 
@@ -215,7 +213,7 @@ C# programlama dilinde tip dönüşümü (type conversion veya casting), bir ver
 1. Implicit (Otomatik) Tip Dönüşümü
    - C# derleyicisi tarafından otomatik olarak gerçekleştirilen tip dönüşümüdür.
    - Bu dönüşüm, küçük bir veri türünden daha büyük bir veri türüne yapılıyorsa genellikle sorunsuz bir şekilde gerçekleşir. Örneğin, bir int değerini bir double değişkenine atarsanız otomatik bir tip dönüşümü gerçekleşir.
-   - 
+     
    ```
    int number = 5;
    double doubleNumber = number; // Otomatik bir şekilde dönüşüm yapılır.
@@ -230,7 +228,7 @@ C# programlama dilinde tip dönüşümü (type conversion veya casting), bir ver
 2. Explicit (Bilinçli) Tip Dönüşümü
    - Programcının açıkça belirttiği ve bazen veri kaybına neden olabilecek bir tip dönüşümüdür.
    - Bu dönüşüm, explicit anahtar kelimesi veya çeşitli dönüşüm operatörleri ((tip) deger) kullanılarak gerçekleştirilir.
-   - 
+     
    ```
    //Explicit Casting
         string str = "1234";
@@ -649,15 +647,283 @@ Gerçek dünya nesnelerini ve kavramlarını yazılım geliştirmekte kullanmay�
   - Sınıflar, verileri ve işlevselliği bir arada gruplamak ve dış dünyadan gelen müdahalelere karşı korumak için kullanılır.
   -  Bu, verilere erişimi ve değişimini kontrol etmeyi sağlar. (properties)
 
+      ```
+               public class Ogrenci
+         {
+             // Private alanlar (fields)
+             private string ad;
+             private int yas;
+         
+             // Ad özelliği (property) - Veriyi gizler ve kontrol eder
+             public string Ad
+             {
+                 get
+                 {
+                     return ad;
+                 }
+                 set
+                 {
+                     // Ad değeri boş olamaz
+                     if (!string.IsNullOrWhiteSpace(value))
+                     {
+                         ad = value;
+                     }
+                 }
+             }
+         
+             // Yaş özelliği (property) - Veriyi gizler ve kontrol eder
+             public int Yas
+             {
+                 get
+                 {
+                     return yas;
+                 }
+                 set
+                 {
+                     // Yaş değeri negatif olamaz
+                     if (value >= 0)
+                     {
+                         yas = value;
+                     }
+                 }
+             }
+         
+             // Kurucu metot
+             public Ogrenci(string ad, int yas)
+             {
+                 // Özelliklere değer atamaları, property set metotları üzerinden yapılır
+                 Ad = ad;
+                 Yas = yas;
+             }
+         
+             // Bilgi ver metodu
+             public void BilgiVer()
+             {
+                 Console.WriteLine("Öğrencinin Adı: " + Ad);
+                 Console.WriteLine("Öğrencinin Yaşı: " + Yas);
+             }
+         }
+   
+      ```
+
 ### Inheritance :
   - Kalıtım, bir sınıfın başka bir sınıftan özelliklerini ve davranışlarını devralmasını sağlar.
   - Bu, kodun yeniden kullanılabilirliğini artırır ve sınıflar arasında hiyerarşik ilişkiler kurulmasına olanak tanır.
+
+          // Temel sınıf (base class)
+         public class Personel
+         {
+             public string Ad { get; set; }
+             public string Soyad { get; set; }
+         
+             public Personel(string ad, string soyad)
+             {
+                 Ad = ad;
+                 Soyad = soyad;
+             }
+         
+             public void BilgiVer()
+             {
+                 Console.WriteLine("Ad: " + Ad);
+                 Console.WriteLine("Soyad: " + Soyad);
+             }
+         }
+         
+         // Türetilmiş sınıf (derived class)
+         public class Mudur : Personel
+         {
+             public int CalismaYili { get; set; }
+         
+             public Mudur(string ad, string soyad, int calismaYili)
+                 : base(ad, soyad) // Temel sınıfın kurucu metodu çağrılıyor
+             {
+                 CalismaYili = calismaYili;
+             }
+         
+             // Temel sınıfın metodu üzerine yazılabilir
+             public new void BilgiVer()
+             {
+                 base.BilgiVer(); // Temel sınıfın metodu çağrılıyor
+                 Console.WriteLine("Çalışma Yılı: " + CalismaYili);
+             }
+         }
+         
+         class Program
+         {
+             static void Main(string[] args)
+             {
+                 Mudur mudur = new Mudur("Ahmet", "Yılmaz", 10);
+         
+                 mudur.BilgiVer(); // Mudur sınıfının metodu çağrılıyor
+         
+                 Console.ReadLine();
+             }
+         }
+
+
     
 ### Polymophisim :
   - Çok biçimlilik, aynı isimle farklı davranışlara sahip olabilen metotların veya sınıfların kullanılabilmesini ifade eder.
   - Bu, kodun daha esnek ve genel kullanıma uygun hale gelmesini sağlar.
+  - "virtual" anahtar kelimesi, metodu türetilen (alt) sınıfların üzerine yazabilmesini (override) sağlayan bir belirleyicidir.
+  - 
+    
+    ```
+    public class GeometrikSekil
+      {
+          public virtual double AlanHesapla()
+          {
+              return 0;
+          }
+      }
+      
+      public class Dikdortgen : GeometrikSekil
+      {
+          public double Uzunluk { get; set; }
+          public double Genislik { get; set; }
+      
+          public Dikdortgen(double uzunluk, double genislik)
+          {
+              Uzunluk = uzunluk;
+              Genislik = genislik;
+          }
+      
+          public override double AlanHesapla()
+          {
+              return Uzunluk * Genislik;
+          }
+      }
+      
+      public class Ucgen : GeometrikSekil
+      {
+          public double Taban { get; set; }
+          public double Yukseklik { get; set; }
+      
+          public Ucgen(double taban, double yukseklik)
+          {
+              Taban = taban;
+              Yukseklik = yukseklik;
+          }
+      
+          public override double AlanHesapla()
+          {
+              return (Taban * Yukseklik) / 2;
+          }
+      }
+
+    ```
+    
 ### Interface :
+   - Arayüzler, bir sınıfın belirli metotları ve özellikleri uygulamasını zorlayan bir tür şablondur.
+   - Arayüzler, nesneler arası iletişimi kolaylaştırır, kodun daha esnek ve genel kullanıma uygun olmasını sağlar ve çoklu kalıtım (multiple inheritance) gibi özellikleri destekler.
+   - Gerçek metot gövdeleri (implementation) içermezler. Bir sınıf, bir arayüzü uygulamak istiyorsa, bu arayüzün tüm metotlarını ve özelliklerini tanımlamak ve uygulamak zorundadır.
+
+         using System;
+
+         // IHayvan (IAnimal) adında bir arayüz
+         public interface IHayvan
+         {
+             string Tur { get; } // Hayvanın türünü temsil eden özellik
+             void SesCikar();   // Hayvanın sesini çıkaran metot
+         }
+         
+         // Köpek sınıfı, IHayvan arayüzünü uygular
+         public class Kopek : IHayvan
+         {
+             public string Tur => "Köpek";
+         
+             public void SesCikar()
+             {
+                 Console.WriteLine("Hav hav!");
+             }
+         }
+         
+         // Kedi sınıfı, IHayvan arayüzünü uygular
+         public class Kedi : IHayvan
+         {
+             public string Tur => "Kedi";
+         
+             public void SesCikar()
+             {
+                 Console.WriteLine("Miyav!");
+             }
+         }
+         
+         class Program
+         {
+             static void Main(string[] args)
+             {
+                 // IHayvan türünden nesneler oluşturuluyor
+                 IHayvan hayvan1 = new Kopek();
+                 IHayvan hayvan2 = new Kedi();
+         
+                 // Hayvanların türleri ve sesleri yazdırılıyor
+                 Console.WriteLine("Hayvan 1 Türü: " + hayvan1.Tur);
+                 hayvan1.SesCikar();
+         
+                 Console.WriteLine("\nHayvan 2 Türü: " + hayvan2.Tur);
+                 hayvan2.SesCikar();
+         
+                 Console.ReadLine();
+             }
+         }
+
+     
 ### Abstract :
+   - C# ve diğer nesne yönelimli programlama dillerinde kullanılan bir belirleyici (modifier) ve bir sınıfın veya sınıf üyelerinin soyut olduğunu belirtir. 
+   - Soyut sınıflar ve soyut üyeler, diğer sınıflar tarafından türetilmek (inherit) ve uygulanmak (implement) üzere tasarlanmıştır.
+   - Soyut sınıflar, bir temel sınıfın soyut bir versiyonunu oluşturur ve türetilen sınıflar bu soyut sınıfı genişletir.
+   - Bir sınıf soyut (abstract) olarak işaretlenirse, bu sınıfın doğrudan örnekleri (instance) oluşturulamaz, yalnızca bu sınıftan türetilen alt sınıfların örnekleri oluşturulabilir.
+   - Soyut sınıflar, genellikle bir üst sınıfın ortak davranışlarını tanımlamak ve alt sınıfların bu davranışları uygulamasını sağlamak için kullanılır.
+   - Bu şekilde, kod tekrarını azaltabilir ve daha organize bir sınıf hiyerarşisi oluşturabilirsiniz.
+
+            // Soyut bir sınıf tanımlama
+            public abstract class Sekil
+            {
+                // Soyut bir metot tanımlama (alt sınıflar bu metodu uygulamak zorundadır)
+                public abstract double AlanHesapla();
+            }
+            
+            // Soyut sınıftan türetilen bir alt sınıf
+            public class Dikdortgen : Sekil
+            {
+                public double Uzunluk { get; set; }
+                public double Genislik { get; set; }
+            
+                public Dikdortgen(double uzunluk, double genislik)
+                {
+                    Uzunluk = uzunluk;
+                    Genislik = genislik;
+                }
+            
+                // Soyut metodu uygulama
+                public override double AlanHesapla()
+                {
+                    return Uzunluk * Genislik;
+                }
+            }
+            
+            class Program
+            {
+                static void Main(string[] args)
+                {
+                    // Soyut sınıfın örneği oluşturulamaz
+                    // Sekil sekil = new Sekil();
+            
+                    // Ancak soyut sınıftan türetilen alt sınıfların örnekleri oluşturulabilir
+                    Dikdortgen dikdortgen = new Dikdortgen(5, 10);
+                    double alan = dikdortgen.AlanHesapla();
+                    Console.WriteLine("Dikdörtgen Alanı: " + alan);
+            
+                    Console.ReadLine();
+                }
+            }
+
+
+## Sık Sorulan Sorular
+*Bu kısım güncellenecektir.*
+
+
 
 
 
