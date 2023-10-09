@@ -766,7 +766,8 @@ Gerçek dünya nesnelerini ve kavramlarını yazılım geliştirmekte kullanmay�
   - Çok biçimlilik, aynı isimle farklı davranışlara sahip olabilen metotların veya sınıfların kullanılabilmesini ifade eder.
   - Bu, kodun daha esnek ve genel kullanıma uygun hale gelmesini sağlar.
   - "virtual" anahtar kelimesi, metodu türetilen (alt) sınıfların üzerine yazabilmesini (override) sağlayan bir belirleyicidir.
-  - 
+  - "sealed" (mühürlenmiş) anahtar kelimesi, bir sınıfın başka bir sınıf tarafından türetilmesini (inheritance) ve genişletilmesini (extension) engelleyen bir C# belirleyicisidir.
+  - "sealed" olarak işaretlendiğinde, bu sınıfın alt sınıfları (derived classes) oluşturulamaz. Bu, sınıfın tasarlandığı gibi kalmasını ve başka yerlerde yanlışlıkla veya kötü amaçlı olarak değiştirilmemesini sağlar.
     
     ```
     public class GeometrikSekil
